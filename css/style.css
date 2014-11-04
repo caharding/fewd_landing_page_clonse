@@ -58,14 +58,22 @@ div {
 /*Navigation Section*/
 .top-navigation {
 	background-color: #fff;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
 .top-navigation > .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	padding: 0px 15px;
 }
 
-.logo{
-	margin: 14px;
+.logo {
+}
+
+.top-navigation > .links {
+	float: right;
+	display: inline-block;
 }
