@@ -1,3 +1,12 @@
+/*Debugging
+	body {
+		background-color: LightGray;
+	}
+	div {
+		border: 1px solid Chocolate;
+	}
+End of debugging*/
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -49,18 +58,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*End of Reset*/
 
 /*Start of CSS*/
-/*body {
-	background-color: LightGray;
-}
-div {
-	border: 1px solid Chocolate;
-}
 
-html {
-	-webkit-font-smoothing: antialiased;
-}*/
+
 .content {
 	padding:0 15px;
 }
@@ -86,16 +88,22 @@ html {
 	float: right;
 	color: #838994;
 	font-size: 16px;
-	margin-top: 26px;
+	margin-top: 25px;
 	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
+
 .top-navigation .links li {
-	margin-left: 36px;
+	margin-left: 25px;
 	display: inline-block;
-	letter-spacing: .03em;
 }
 
 .top-navigation .links > .active {
 	color: #4c5058;
 	font-weight: 600;
+}
+
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #333333;
 }
