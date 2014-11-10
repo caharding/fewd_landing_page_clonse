@@ -68,7 +68,7 @@ table {
 .content {
 	padding:0 15px;
 	margin: 0 auto;
-	width: 970px;
+	width: 46rem;
 }
 
 /*Navigation Section*/
@@ -76,6 +76,10 @@ table {
 
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	border-bottom: 1px solid #DDD;
 }
 
 .top-navigation > .content {
@@ -192,7 +196,6 @@ button {
 
 .cases .devices > li {
 	width: 33.33%;
-	padding: 10px;
 }
 
 
