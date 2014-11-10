@@ -115,7 +115,7 @@ table {
 	color: #333333;
 }
 
-.top-navigation a {
+a {
 	color: #838994;
 	text-decoration: none;
 }
@@ -208,4 +208,30 @@ button {
 .cases .devices p {
 	font-weight: 300;
 	font-size: 1.313rem;
+}
+/*Footer Section */
+.shortcuts {
+}
+
+.shortcuts .list {
+	display: inline-block;
+	width:32.9%;
+	text-align: left;
+	font-size: .97rem;
+	vertical-align: top;
+}
+
+.shortcuts .list h4 {
+	margin: 1em 0px;
+}
+
+.shortcuts .list p {
+	margin: .5em 0px;
+	font-weight: lighter;
+}
+.icons li {
+	display: inline-block;
+	border: 1px solid #DDD;
+	padding: 20px;
+	border-radius: 100%
 }
