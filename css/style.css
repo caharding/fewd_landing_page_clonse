@@ -42,6 +42,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 ol, ul {
 	list-style: none;
@@ -65,6 +67,8 @@ table {
 
 .content {
 	padding:0 15px;
+	margin: 0 auto;
+	width: 970px;
 }
 
 /*Navigation Section*/
@@ -75,9 +79,9 @@ table {
 }
 
 .top-navigation > .content {
-	width: 970px;
+
 	height: 70px;
-	margin: 0 auto;
+
 }
 
 .top-navigation .logo {
@@ -89,8 +93,7 @@ table {
 	color: #838994;
 	font-size: 16px;
 	margin-top: 25px;
-	font-family: 'Roboto', sans-serif;
-	-webkit-font-smoothing: antialiased;
+
 }
 
 .top-navigation .links li {
@@ -108,11 +111,31 @@ table {
 	color: #333333;
 }
 
+.top-navigation a {
+	color: #838994;
+	text-decoration: none;
+}
 /*Introduction Section*/
 .introduction {
 	background-image: url('../img/first-background.jpg');
-	background-position: center-bottom;
+	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 45.938rem;
+	overflow: auto;
+}
+
+.introduction h1, .introduction h3{
+	color: white;
+	text-align: center;
+	font-weight:; 300;
+}
+.introduction h1 {
+	font-size: 3.125rem;
+	margin-top: 10rem;
+}
+
+.introduction h3 {
+	font-size: 1.563rem;
+	margin-top: 1.25rem;
 }
