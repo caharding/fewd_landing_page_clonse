@@ -139,3 +139,27 @@ table {
 	font-size: 1.563rem;
 	margin-top: 1.25rem;
 }
+
+.buttons {
+	margin-top: 1.563rem;
+}
+
+.introduciton .half {
+	display: inline-block;
+	line-height: 1.2;
+	font-size: 1.125rem;
+	width: 49%;
+}
+
+button {
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 16px 26px;
+	line-height: 1.33;
+	width: 9.688 rem;
+	background-color: #f15a29;
+	font-size: 10px;
+	color: white;
+	font-size: 1.125rem;
+}
