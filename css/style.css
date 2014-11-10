@@ -107,3 +107,12 @@ table {
 	cursor: pointer;
 	color: #333333;
 }
+
+/*Introduction Section*/
+.introduction {
+	background-image: url('../img/first-background.jpg');
+	background-position: center-bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+}
