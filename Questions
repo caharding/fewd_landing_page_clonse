@@ -1,0 +1,21 @@
+Questions
+
+> in CSS
+Git Commit -am
+Edits in CSS on Google Developer Tools change the file? 
+
+But wait, if you toggle this padding on and off in the developer tools do you see how .content is getting bigger and smaller instead of just moving the contents away from it's border? This is because of box-sizing. See if you can fix this quirk on your own.
+
+Why doesn't CSS cascade from my ul class to li? 
+
+- - - 
+
+CSS Overflow 
+
+When declaring a top-level class where should I put it in my CSS? When it first appears or in a more general section? 
+
+The developer keeps defining top-level content class CSS in the subclasses such as heading sizes and margins. Wouldn't it be better to do this in the parent class and then change in child classes? 
+
+Z-Index?
+
+In the footer the links are sepearted as Divs with text. Why not use Lists with text? 
